@@ -9,6 +9,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "@sonolus/express": "latest",
-    "@sinclair/typebox": "latest"
+    "@sinclair/typebox": "latest",
+    "@sonolus/core": "latest"
   }
 }

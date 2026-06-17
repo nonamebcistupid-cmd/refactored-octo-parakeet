@@ -1,0 +1,13 @@
+{
+  "name": "sonolus-server",
+  "version": "1.0.0",
+  "description": "a blank of description bc idk what should i write.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@sonolus/express": "^1.3.0"
+  }
+}

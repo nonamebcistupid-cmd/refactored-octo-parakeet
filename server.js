@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const sonolus = new Sonolus(app, {
-    basePath: '', 
+    basePath: '/sonolus', 
     fallbackLocale: 'en'
 });
 

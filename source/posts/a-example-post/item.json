@@ -1,0 +1,8 @@
+{
+    "version": 1,
+    "title": { "en": "a title", "vi": "tiêu đề" },
+    "time": 1718640000,
+    "author": { "en": "author" },
+    "tags": [],
+    "description": { "en": "this is a example for a post" }
+}

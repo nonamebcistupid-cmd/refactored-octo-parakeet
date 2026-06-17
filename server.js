@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const { Sonolus } = require('@sonolus/express');
 
@@ -11,7 +12,7 @@ const sonolus = new Sonolus(app, {
 });
 
 // Load tài nguyên từ thư mục pack
-sonolus.load('pack'); 
+sonolus.load(path.join(__dirname, 'pack'));
 
 // Chạy server đón request từ mọi IP
 app.listen(port, '0.0.0.0', () => {

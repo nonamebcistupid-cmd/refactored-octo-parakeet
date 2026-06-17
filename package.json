@@ -4,7 +4,7 @@
   "description": "a blank of description bc idk what should i write.",
   "main": "server.js",
   "scripts": {
-    "start": "npx @sonolus/pack && node index.js"
+    "start": "npx sonolus-pack && node server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
